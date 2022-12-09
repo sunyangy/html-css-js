@@ -20,7 +20,9 @@ input {
     height: 100%;
     top: 0;
     left: 0;
-    background: url('./images/2.png');
+    background: url('./images/2.png') no-repeat center 0px;
+    background-position: center 0;
+    background-size: cover;
 }
 
 .login-container {
